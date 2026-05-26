@@ -29,14 +29,15 @@ The main screen is intentionally minimal:
 - Big left/right navigation.
 - A small read-ready icon or cooldown ring.
 - A tiny progress counter.
-- A hidden parent gear inside the card.
+- A parent gear in the top-left of the card.
 
-The child can change words and, if speech is enabled, tap the card to hear the current word. Parent settings are behind a long press on the gear.
+The child can change words and, if speech is enabled, tap the card to hear the current word. To open Parent Settings, press and hold the small gear button in the top-left of the card.
 
 ## Parent Settings
 
 Parent Settings includes:
 
+- Long-press access from the small gear in the top-left of the card.
 - Word set/category filter.
 - Uppercase cards toggle.
 - Shuffle words toggle.
