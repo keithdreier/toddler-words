@@ -3,6 +3,10 @@
 > **Warning**
 > This project is 100% vibe coded and shared as-is. Use it, modify it, and install it at your own risk. I built it for my own kid and make no guarantees about correctness, safety, browser behavior, or long-term maintenance.
 
+You can test, use, and install the live PWA here:
+
+[https://toddler-words-4a9f3dfc991a.herokuapp.com/](https://toddler-words-4a9f3dfc991a.herokuapp.com/)
+
 Toddler Words is a simple fullscreen flashcard PWA I built for my 2-year-old. He loves words, vehicles, dinosaurs, shows, construction machines, and very specific things like `tiramisu`, `opera house`, `big gray wolf`, `Dino Dana`, and `monster truck`, so the app is designed around real words a toddler actually recognizes instead of only generic early-reader lists.
 
 It is mobile-first, kid-safe, offline-capable, and intentionally small: no ads, no accounts, no backend, no tracking.
@@ -110,6 +114,16 @@ The production preview is the best way to test PWA behavior locally:
 ```text
 http://localhost:4173
 ```
+
+## Heroku
+
+The app includes a tiny static Node server for Heroku:
+
+```bash
+npm start
+```
+
+Heroku runs `npm run build` via `heroku-postbuild`, then serves the generated `dist/` directory using `server.js`.
 
 ## Install As A PWA On Android
 
